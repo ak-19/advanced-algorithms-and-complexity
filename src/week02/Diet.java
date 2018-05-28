@@ -1,3 +1,5 @@
+package week02;
+
 import java.io.*;
 import java.util.*;
 
@@ -238,8 +240,8 @@ public class Diet {
     }
 
     Diet() throws IOException {
-        br = new BufferedReader(new InputStreamReader(System.in));
-        //     br = new BufferedReader(new InputStreamReader(new FileInputStream("files/Diet.txt")));
+          br = new BufferedReader(new InputStreamReader(System.in));
+        // br = new BufferedReader(new InputStreamReader(new FileInputStream("files/Diet.txt")));
         out = new PrintWriter(System.out);
         solve();
         out.close();
